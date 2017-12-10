@@ -1,22 +1,20 @@
+# Spellify
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+## What is this?
+Spellify is a web app that helps you better study for your spelling tests.
 
+## How does it work
+You simply upload your spelling list PDF file (like the doc that your teacher would usually give you) and the app then launches an interactive training session.
+For each word in the list, it speaks out the word and can also give you a definiton of the word, use it in a sentence, and much more!
+Think of Spellify as your ultimate study assistant for spelling tests.
 
-Welcome to your Node.js project on Cloud9 IDE!
+## Why did you build this?
+I developed this app to help my sister to study for her weekly spelling tests.
 
-This chat example showcases how to use `socket.io` with a static `express` server.
+## Can I use it
+Currently, the app's way of parsing the uploaded spelling words list (PDF file) is specific to the document style of the spelling lists that my sister's teacher used to hand out.
+So, the app might not be able to automatically parse other styles of spelling list files.
 
-## Running the server
+If you find a more generic way for parsing the uploaded spelling list file, then please send me a PR!
 
-1) Open `server.js` and start the app by clicking on the "Run" button in the top menu.
-
-2) Alternatively you can launch the app from the Terminal:
-
-    $ node server.js
-
-Once the server is running, open the project in the shape of 'https://projectname-username.c9.io/'. As you enter your name, watch the Users list (on the left) update. Once you press Enter or Send, the message is shared with all connected clients.
+Enjoy!
