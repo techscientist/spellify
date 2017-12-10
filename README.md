@@ -19,7 +19,7 @@ Yup! Check it out at: https://spellifyapp.herokuapp.com/
 - Heroku (for deployment)
 
 ## Why did you build this?
-I developed this app to help my sister to study for her weekly spelling tests.
+I developed this app to help my sister better study for her weekly spelling tests.
 
 ## Can I use it?
 Currently, the app's way of parsing the uploaded spelling words list (PDF file) is specific to the document style of the spelling lists that my sister's teacher used to hand out.
