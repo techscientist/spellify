@@ -1,13 +1,31 @@
 {
-  "name": "chat-example",
-  "version": "0.0.0",
+  "name": "spellify",
+  "version": "0.0.1",
   "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
   "main": "server.js",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techscientist/spellify.git"
+  },
   "author": "Mostafa Eweda <mo.eweda@gmail.com>",
   "dependencies": {
-    "async": "~0.2.8",
-    "express": "~3.2.4",
-    "socket.io": "~0.9.14"
-  }
+    "async": "^0.2.10",
+    "connect-busboy": "0.0.2",
+    "express": "^3.2.6",
+    "eyes": "^0.1.8",
+    "pdf-extract": "^1.0.11",
+    "pdf-text-extract": "^1.5.0",
+    "serve-favicon": "^2.4.5",
+    "shortid": "^2.2.8",
+    "socket.io": "^0.9.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techscientist/spellify/issues"
+  },
+  "homepage": "https://github.com/techscientist/spellify"
 }
