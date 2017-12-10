@@ -1,0 +1,58 @@
+.logo {
+    font-family: Pacifico;
+    font-size: 39pt;
+    text-align: center;
+    margin-top: 200px;
+    cursor: default;
+}
+.media-element {
+    display: inline;
+    padding-right: 26px;
+    padding-left: 26px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    cursor:pointer;
+}
+.media-element-special-left {
+    display: inline;
+    padding-right: 65px;
+    padding-left: 26px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    cursor:pointer;
+}
+.media-element-special-right {
+    display: inline;
+    padding-right: 26px;
+    margin-right:15px;
+    padding-left: 65px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    cursor:pointer;
+}
+#controller {
+    margin-top: 88px;
+}
+.center {
+    text-align: center;
+}
+#uploadBtn {
+    width: 50px;
+    height: 50px;
+}
+.pin {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    color: #D3D3D3;
+    font-size: 11pt;
+    text-align: center;
+    margin-top: 120px;
+}
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
